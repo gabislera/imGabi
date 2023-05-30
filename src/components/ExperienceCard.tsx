@@ -11,7 +11,7 @@ import { VerticalTimelineElement } from 'react-vertical-timeline-component'
 //   points: string[]
 // }
 
-export const ExperienceCard = ({ experience }) => {
+export const ExperienceCard = ({ experience }: any) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -42,7 +42,7 @@ export const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className="ml-5 mt-2 list-disc space-y-2">
-        {experience.points.map((point, index) => (
+        {experience.points.map((point: any, index: any) => (
           <li
             key={`experience-point-${index}`}
             className="text-white-100 pl-1 text-[14px]"

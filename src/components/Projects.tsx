@@ -13,7 +13,11 @@ import 'swiper/css/pagination'
 import { useEffect, useState } from 'react'
 
 export const Projects = () => {
-  const initialSize = window.matchMedia('(max-width: 768px)').matches ? 1 : 3
+  let initialSize
+  if (typeof window !== 'undefined') {
+    initialSize = window.matchMedia('(max-width: 768px)').matches ? 1 : 3
+  }
+
   const [isMobile, setIsMobile] = useState(initialSize)
 
   useEffect(() => {

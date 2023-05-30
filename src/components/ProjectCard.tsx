@@ -22,22 +22,26 @@ export const ProjectCard = ({
   image,
   link,
 }: ProjectCardProps) => {
-  const ref = useRef()
+  const ref = useRef<HTMLVideoElement>(null)
 
   const handleMouseEnter = () => {
-    console.log('entrou')
-    ref.current?.play()
+    if (ref.current) {
+      ref.current.play()
+    }
   }
 
   const handleMouseLeave = () => {
-    console.log('saiu')
-    ref.current?.pause()
-    ref.current.currentTime = 0
+    if (ref.current) {
+      ref.current.pause()
+      ref.current.currentTime = 0
+    }
   }
 
   useEffect(() => {
-    ref.current?.pause()
-    ref.current.currentTime = 0
+    if (ref.current) {
+      ref.current.pause()
+      ref.current.currentTime = 0
+    }
   }, [])
 
   return (
@@ -49,7 +53,6 @@ export const ProjectCard = ({
           loop
           autoPlay
           src={image}
-          alt={name}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           ref={ref}
