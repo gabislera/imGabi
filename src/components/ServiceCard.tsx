@@ -13,19 +13,17 @@ export const ServiceCard = ({ index, title, icon }: SeviceCardProps) => (
   <Tilt className=" w-[250px] ">
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className="w-full rounded-[20px] bg-purple-50 p-[1px] shadow-card"
+      className="w-full rounded-[20px] p-[1px] shadow-card"
     >
-      <div className="flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] bg-purple-500 px-12 py-5">
+      <div className="flex min-h-[280px] flex-col items-center justify-center gap-5 rounded-[20px] border-[1px] border-purple-50 bg-purple-500 px-12 py-5 hover:bg-transparent">
         <Image
           src={icon}
           alt={title}
-          width={16}
-          height={16}
+          width={25}
+          height={25}
           className="h-16 w-16 object-contain"
         />
-        <h3 className="text-center text-[20px] font-bold text-white">
-          {title}
-        </h3>
+        <h3 className="text-center text-base font-thin text-white">{title}</h3>
       </div>
     </motion.div>
   </Tilt>

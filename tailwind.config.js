@@ -48,7 +48,7 @@ module.exports = {
         },
       },
       boxShadow: {
-        card: '0px 35px 120px -15px #211e35',
+        card: '0px 15px 120px -15px #211e35',
       },
     },
     plugins: [require('prettier-plugin-tailwindcss')],

@@ -1,8 +1,3 @@
-// import js from '../assets/js.svg'
-// import react from '../assets/react.svg'
-// import code from '../assets/code.svg'
-// import plus from '../assets/plus.svg'
-
 export const experiences = [
   {
     title: 'Nome do curso',
@@ -71,20 +66,20 @@ export const experiences = [
 
 export const services = [
   {
-    title: 'Web Developer',
-    icon: '/web.png',
+    title: 'React',
+    icon: '/reactjs.svg',
   },
   {
-    title: 'React Native Developer',
-    icon: '/mobile.png',
+    title: 'NextJs',
+    icon: '/nextjs.svg',
   },
   {
-    title: 'Backend Developer',
-    icon: '/backend.png',
+    title: 'Tailwind',
+    icon: '/tailwindcss.svg',
   },
   {
-    title: 'Content Creator',
-    icon: '/creator.png',
+    title: 'Typescript',
+    icon: '/typescript.svg',
   },
 ]
 
