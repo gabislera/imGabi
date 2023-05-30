@@ -1,24 +1,35 @@
 'use client'
-// import { useRef } from 'react'
+import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
-// import emailjs from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 export const Contact = () => {
-  // const form = useRef();
+  const form = useRef<any>() // Change event type
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e: any) => {
+    // Change event type FormEvent<HTMLFormElement>
+    e.preventDefault()
 
-  //   emailjs.sendForm('service_6fjm86w', 'template_9hdperg', form.current, 'U5nevi2ZQzl-Fdo7o')
-  //     .then((result) => {
-  //       console.log(result.text);
-  //     }, (error) => {
-  //       console.log(error.text);
-  //     });
+    emailjs
+      .sendForm(
+        'service_6fjm86w',
+        'template_9hdperg',
+        form.current,
+        'U5nevi2ZQzl-Fdo7o',
+      )
+      .then(
+        (result) => {
+          // alert('ok') Melhorar resposta de email enviado
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        },
+      )
 
-  //   e.target.reset()
-  // };
+    e.target.reset()
+  }
 
   return (
     <motion.section
@@ -35,7 +46,11 @@ export const Contact = () => {
       </motion.div>
 
       <motion.div variants={fadeIn('', '', 0.5, 1)} className="mt-20 flex-1">
-        <form className="mx-auto flex max-w-[700px] flex-col items-center gap-5">
+        <form
+          onSubmit={sendEmail}
+          ref={form}
+          className="mx-auto flex max-w-[700px] flex-col items-center gap-5"
+        >
           <input
             className="w-full rounded-lg border-[1px] border-gray-300 bg-transparent p-6 text-white"
             type="text"

@@ -6,7 +6,6 @@ import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
 import { Navbar } from '@/components/Navbar'
 import StarCanvas from '../components/Stars'
-// import { ThreeTimelineTest } from '@/components/ThreeTimelineTest'
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <Hero />
       <About />
       <Experience />
-      {/* <ThreeTimelineTest /> */}
       <Projects />
       <Contact />
       <Footer />
