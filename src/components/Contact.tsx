@@ -34,10 +34,7 @@ export const Contact = () => {
         <h2 className="text-center text-4xl text-white">Contact Me</h2>
       </motion.div>
 
-      <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="mt-20 flex-1"
-      >
+      <motion.div variants={fadeIn('', '', 0.5, 1)} className="mt-20 flex-1">
         <form className="mx-auto flex max-w-[700px] flex-col items-center gap-5">
           <input
             className="w-full rounded-lg border-[1px] border-gray-300 bg-transparent p-6 text-white"
