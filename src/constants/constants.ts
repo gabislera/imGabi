@@ -35,7 +35,7 @@ export const experiences = [
   {
     title: 'Nome do curso',
     company: 'Empresa',
-    icon: '/code.svg',
+    icon: '/html.svg',
     iconBg: '#629bf0',
     date: 'HTML / CSS',
     points: [
@@ -87,7 +87,7 @@ export const projects = [
   {
     id: 1,
     name: 'Spacerocket',
-    image: '/teste.png',
+    image: '/spacerocket.png',
     description:
       'Capsula do tempo onde o usuário pode fazer login e postar suas memorias em um formato de feed.',
     tags: [
@@ -109,7 +109,7 @@ export const projects = [
   {
     id: 2,
     name: 'Pomodoro',
-    image: '/teste.png',
+    image: '/pomodoro.png',
     description:
       'Método pomodoro para concentração e realização de tarefas com histórico.',
     tags: [
@@ -131,7 +131,7 @@ export const projects = [
   {
     id: 3,
     name: 'Feed',
-    image: '/teste.png',
+    image: '/feed.png',
     description:
       'Feed de comentários onde é possivel comentar, apagar o comentario e dar likes',
     tags: [
@@ -153,7 +153,7 @@ export const projects = [
   {
     id: 4,
     name: 'Pets',
-    image: '/teste.png',
+    image: '/pets.png',
     description:
       'Rede social para pets onde o usuário pode fazer login, postar, deletar fotos e realizar comentarios.',
     tags: [
@@ -197,7 +197,7 @@ export const projects = [
   {
     id: 6,
     name: 'Bikraft',
-    image: '/teste.png',
+    image: '/bikcraft.png',
     description:
       'Website criado para marca fictícia de bicicletas realizado no cruso.',
     tags: [
@@ -219,7 +219,7 @@ export const projects = [
   {
     id: 7,
     name: 'Animais Fantásticos',
-    image: '/teste.png',
+    image: '/animais.png',
 
     description: 'Site fictício criado com funcionalidades de javascript puro.',
     tags: [

@@ -56,7 +56,7 @@ export const Navbar = () => {
         onClick={() => setActiveNav('#')}
         href="#"
       >
-        <House />
+        <House weight="light" />
       </a>
       <a
         className={
@@ -67,7 +67,7 @@ export const Navbar = () => {
         onClick={() => setActiveNav('#about')}
         href="#about"
       >
-        <User />
+        <User weight="light" />
       </a>
       <a
         className={
@@ -78,7 +78,7 @@ export const Navbar = () => {
         onClick={() => setActiveNav('#experience')}
         href="#experience"
       >
-        <Book />
+        <Book weight="light" />
       </a>
       {/* <a
         className={
@@ -100,7 +100,7 @@ export const Navbar = () => {
         onClick={() => setActiveNav('#projects')}
         href="#projects"
       >
-        <Cube />
+        <Cube weight="light" />
       </a>
       <a
         className={
@@ -111,7 +111,7 @@ export const Navbar = () => {
         onClick={() => setActiveNav('#contact')}
         href="#contact"
       >
-        <ChatCircleDots />
+        <ChatCircleDots weight="light" />
       </a>
     </nav>
   )

@@ -1,12 +1,7 @@
 'use client'
 import { footerVariants } from '@/utils/motion'
 import { motion } from 'framer-motion'
-import {
-  DiscordLogo,
-  GithubLogo,
-  InstagramLogo,
-  TwitterLogo,
-} from '@phosphor-icons/react'
+import { GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 
 export const Footer = () => (
   <motion.footer
@@ -29,10 +24,30 @@ export const Footer = () => (
           </div>
 
           <div className="flex gap-4">
-            <TwitterLogo size={28} className="cursor-pointer" />
-            <InstagramLogo size={28} className="cursor-pointer" />
-            <GithubLogo size={28} className="cursor-pointer" />
-            <DiscordLogo size={28} className="cursor-pointer" />
+            <a
+              href="https://www.linkedin.com/in/gabiicarniel/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-purple-500"
+            >
+              <LinkedinLogo size={28} weight="thin" />
+            </a>
+            <a
+              href="https://github.com/gabislera"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-purple-500"
+            >
+              <GithubLogo size={28} weight="thin" />
+            </a>
+            <a
+              href="https://www.instagram.com/gabscarniel/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-purple-500"
+            >
+              <InstagramLogo size={28} weight="thin" />
+            </a>
           </div>
         </div>
       </div>

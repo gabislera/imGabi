@@ -23,14 +23,14 @@ export const ExperienceCard = ({ experience }: any) => {
         </div>
       }
     >
-      <div>
+      {/* <div>
         <h3 className="-mb-4 text-2xl font-bold text-white">
           {experience.title}
         </h3>
         <p className="text-base font-semibold text-secondary">
           {experience.company}
         </p>
-      </div>
+      </div> */}
 
       <ul className="ml-5 mt-2 list-disc space-y-2">
         {experience.points.map((point: any, index: any) => (
