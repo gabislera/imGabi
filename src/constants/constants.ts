@@ -87,7 +87,7 @@ export const projects = [
   {
     id: 1,
     name: 'Spacerocket',
-    image: '/video7.mp4',
+    image: '/spacetime.mp4',
     description:
       'Capsula do tempo onde o usuário pode fazer login e postar suas memorias em um formato de feed.',
     tags: [
@@ -108,8 +108,30 @@ export const projects = [
   },
   {
     id: 2,
+    name: 'Pomodoro',
+    image: '/pomodoro.mp4',
+    description:
+      'Método pomodoro para concentração e realização de tarefas com histórico.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styled-components',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/NLW-Spacetime',
+  },
+  {
+    id: 3,
     name: 'Feed',
-    image: '/video8.mp4',
+    image: '/feed.mp4',
     description:
       'Feed de comentários onde é possivel comentar, apagar o comentario e dar likes',
     tags: [
@@ -129,9 +151,9 @@ export const projects = [
     link: 'https://github.com/gabislera/Post-feed',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Pets',
-    image: '/video2.mp4',
+    image: '/pets.mp4',
     description:
       'Rede social para pets onde o usuário pode fazer login, postar, deletar fotos e realizar comentarios.',
     tags: [
@@ -150,34 +172,10 @@ export const projects = [
     ],
     link: 'https://github.com/gabislera/Cats',
   },
-
-  {
-    id: 4,
-    name: 'Bikraft',
-    image: '/video3.mp4',
-    description:
-      'Website criado para marca fictícia de bicicletas realizado no cruso.',
-    tags: [
-      {
-        name: 'html',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/Bikcraft',
-  },
-
   {
     id: 5,
     name: 'Todo List',
-    image: '/video1.mp4',
+    image: '/todo.mp4',
     description:
       'Todo List com funçoes de adicionar, remover e marcar tarefa como concluída.',
     tags: [
@@ -196,11 +194,32 @@ export const projects = [
     ],
     link: "https://github.com/gabislera/To-do-List'",
   },
-
   {
     id: 6,
+    name: 'Bikcraft',
+    image: '/bikcraft.mp4',
+    description:
+      'Website criado para marca fictícia de bicicletas realizado no cruso.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Bikcraft',
+  },
+  {
+    id: 7,
     name: 'Animais Fantásticos',
-    image: '/video4.mp4',
+    image: '/animais.mp4',
 
     description: 'Site fictício criado com funcionalidades de javascript puro.',
     tags: [

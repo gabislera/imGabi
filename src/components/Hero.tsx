@@ -36,8 +36,10 @@ export const Hero = () => {
       </motion.div>
 
       <motion.div variants={fadeIn('up', 'tween', 0.3, 1)}>
-        <div className="-mt-[50px] mb-[80px] ml-[100px] md:mt-[300px]">
+        <div className="-mt-[50px] mb-[80px] ml-[100px] sm:mt-[300px]">
           <motion.img
+            width={682}
+            height={614}
             src="/header-img.svg"
             alt=""
             className="w-[500px]"
