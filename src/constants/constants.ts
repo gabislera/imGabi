@@ -87,7 +87,7 @@ export const projects = [
   {
     id: 1,
     name: 'Spacerocket',
-    image: '/spacetime.mp4',
+    image: '/teste.png',
     description:
       'Capsula do tempo onde o usuário pode fazer login e postar suas memorias em um formato de feed.',
     tags: [
@@ -109,7 +109,7 @@ export const projects = [
   {
     id: 2,
     name: 'Pomodoro',
-    image: '/pomodoro.mp4',
+    image: '/teste.png',
     description:
       'Método pomodoro para concentração e realização de tarefas com histórico.',
     tags: [
@@ -131,7 +131,7 @@ export const projects = [
   {
     id: 3,
     name: 'Feed',
-    image: '/feed.mp4',
+    image: '/teste.png',
     description:
       'Feed de comentários onde é possivel comentar, apagar o comentario e dar likes',
     tags: [
@@ -153,7 +153,7 @@ export const projects = [
   {
     id: 4,
     name: 'Pets',
-    image: '/pets.mp4',
+    image: '/teste.png',
     description:
       'Rede social para pets onde o usuário pode fazer login, postar, deletar fotos e realizar comentarios.',
     tags: [
@@ -175,7 +175,7 @@ export const projects = [
   {
     id: 5,
     name: 'Todo List',
-    image: '/todo.mp4',
+    image: '/teste.png',
     description:
       'Todo List com funçoes de adicionar, remover e marcar tarefa como concluída.',
     tags: [
@@ -196,8 +196,8 @@ export const projects = [
   },
   {
     id: 6,
-    name: 'Bikcraft',
-    image: '/bikcraft.mp4',
+    name: 'Bikraft',
+    image: '/teste.png',
     description:
       'Website criado para marca fictícia de bicicletas realizado no cruso.',
     tags: [
@@ -219,7 +219,7 @@ export const projects = [
   {
     id: 7,
     name: 'Animais Fantásticos',
-    image: '/animais.mp4',
+    image: '/teste.png',
 
     description: 'Site fictício criado com funcionalidades de javascript puro.',
     tags: [

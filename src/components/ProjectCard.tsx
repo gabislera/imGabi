@@ -1,5 +1,5 @@
 'use-client'
-import { useEffect, useRef } from 'react'
+// import { useEffect, useRef } from 'react'
 import { GithubLogo } from '@phosphor-icons/react'
 
 interface Tag {
@@ -22,40 +22,12 @@ export const ProjectCard = ({
   image,
   link,
 }: ProjectCardProps) => {
-  const ref = useRef<HTMLVideoElement>(null)
-
-  const handleMouseEnter = () => {
-    if (ref.current) {
-      ref.current.play()
-    }
-  }
-
-  const handleMouseLeave = () => {
-    if (ref.current) {
-      ref.current.pause()
-      ref.current.currentTime = 0
-    }
-  }
-
-  useEffect(() => {
-    if (ref.current) {
-      ref.current.pause()
-      ref.current.currentTime = 0
-    }
-  }, [])
-
   return (
     <div className="w-full rounded-2xl border-[1px] border-gray-400 bg-gray-500 p-5 hover:border-2 hover:border-purple-700 hover:bg-transparent sm:w-[360px]">
       <div className="relative h-[230px] w-full">
-        <video
-          muted
-          playsInline
-          loop
-          autoPlay
+        <img
           src={image}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          ref={ref}
+          alt=""
           className="h-full w-full rounded-2xl object-cover"
         />
       </div>
