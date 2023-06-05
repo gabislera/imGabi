@@ -199,14 +199,14 @@ export const projects = [
     name: 'DT Money',
     image: '/dtmoney.png',
     description:
-      'Timer no estilo método Pomodoro para maior concentração e realização de tarefas.',
+      'Aplicativo de controle de gastos com valores de entrada e saída.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'javascript',
+        name: 'typescrypt',
         color: 'green-text-gradient',
       },
       {
