@@ -108,94 +108,6 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'Pomodoro',
-    image: '/pomodoro.png',
-    description:
-      'Método pomodoro para concentração e realização de tarefas com histórico.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'styled-components',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/NLW-Spacetime',
-  },
-  {
-    id: 3,
-    name: 'Feed',
-    image: '/feed.png',
-    description:
-      'Feed de comentários onde é possivel comentar, apagar o comentario e dar likes',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/Post-feed',
-  },
-  {
-    id: 4,
-    name: 'Pets',
-    image: '/pets.png',
-    description:
-      'Rede social para pets onde o usuário pode fazer login, postar, deletar fotos e realizar comentarios.',
-    tags: [
-      {
-        name: 'react',
-        color: 'text-blue-primary',
-      },
-      {
-        name: 'javascript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/Cats',
-  },
-  {
-    id: 5,
-    name: 'Todo List',
-    image: '/teste.png',
-    description:
-      'Todo List com funçoes de adicionar, remover e marcar tarefa como concluída.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: "https://github.com/gabislera/To-do-List'",
-  },
-  {
-    id: 6,
     name: 'DT Money',
     image: '/dtmoney.png',
     description:
@@ -217,7 +129,117 @@ export const projects = [
     link: 'https://github.com/gabislera/DT-Money',
   },
   {
+    id: 3,
+    name: 'Metaversus',
+    image: '/metaverse.png',
+    description:
+      'Website metaversus criado com threejs para aplicação de efeitos.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'threejs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/NLW-Spacetime',
+  },
+  {
+    id: 4,
+    name: 'Pomodoro',
+    image: '/pomodoro.png',
+    description:
+      'Método pomodoro para concentração e realização de tarefas com histórico.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styled-components',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/NLW-Spacetime',
+  },
+  {
+    id: 5,
+    name: 'Pets',
+    image: '/pets.png',
+    description:
+      'Rede social para pets onde o usuário pode fazer login, postar, deletar fotos e realizar comentarios.',
+    tags: [
+      {
+        name: 'react',
+        color: 'text-blue-primary',
+      },
+      {
+        name: 'javascript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Cats',
+  },
+  {
+    id: 6,
+    name: 'Todo List',
+    image: '/teste.png',
+    description:
+      'Todo List com funçoes de adicionar, remover e marcar tarefa como concluída.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: "https://github.com/gabislera/To-do-List'",
+  },
+  {
     id: 7,
+    name: 'Feed',
+    image: '/feed.png',
+    description:
+      'Feed de comentários onde é possivel comentar, apagar o comentario e dar likes',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Post-feed',
+  },
+  {
+    id: 8,
     name: 'Bikraft',
     image: '/bikcraft.png',
     description:
@@ -239,7 +261,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Bikcraft',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Animais Fantásticos',
     image: '/animais.png',
 
