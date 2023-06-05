@@ -46,7 +46,7 @@ export const Navbar = () => {
   }, [])
 
   return (
-    <nav className="fixed bottom-4 left-[50%] z-[99] flex	 w-max -translate-x-[50%] gap-[0.8rem] rounded-full bg-nav px-[1.7rem] py-[0.7rem]">
+    <nav className="fixed bottom-4 left-[50%] z-[99] flex w-max -translate-x-[50%] gap-[0.8rem] rounded-full bg-nav px-[1.7rem] py-[0.7rem]">
       <a
         className={
           activeNav === '#'

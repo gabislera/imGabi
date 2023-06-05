@@ -196,6 +196,28 @@ export const projects = [
   },
   {
     id: 6,
+    name: 'DT Money',
+    image: '/dtmoney.png',
+    description:
+      'Timer no estilo método Pomodoro para maior concentração e realização de tarefas.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styles-components',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/DT-Money',
+  },
+  {
+    id: 7,
     name: 'Bikraft',
     image: '/bikcraft.png',
     description:
@@ -217,7 +239,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Bikcraft',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Animais Fantásticos',
     image: '/animais.png',
 
