@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 import React, { useState, useEffect, useRef, MutableRefObject } from 'react'
 import { House, User, Book, Cube, ChatCircleDots } from '@phosphor-icons/react'
