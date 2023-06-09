@@ -1,6 +1,11 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
-import React, { useState, useEffect, useRef, MutableRefObject } from 'react'
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  MutableRefObject,
+  useMemo,
+} from 'react'
 import { House, User, Book, Cube, ChatCircleDots } from '@phosphor-icons/react'
 
 interface NavItem {
@@ -11,18 +16,21 @@ interface NavItem {
 
 export const Navbar = () => {
   const [activeNav, setActiveNav] = useState<string>('#home')
+  const ref = useRef()
 
-  const navItems: NavItem[] = [
-    { id: '#home', icon: <House weight="light" />, ref: useRef() },
-    { id: '#about', icon: <User weight="light" />, ref: useRef() },
-    { id: '#experience', icon: <Book weight="light" />, ref: useRef() },
-    { id: '#projects', icon: <Cube weight="light" />, ref: useRef() },
-    {
-      id: '#contact',
-      icon: <ChatCircleDots weight="light" />,
-      ref: useRef(),
-    },
-  ]
+  const navItems: NavItem[] = useMemo(() => {
+    return [
+      { id: '#home', icon: <House weight="light" />, ref },
+      { id: '#about', icon: <User weight="light" />, ref },
+      { id: '#experience', icon: <Book weight="light" />, ref },
+      { id: '#projects', icon: <Cube weight="light" />, ref },
+      {
+        id: '#contact',
+        icon: <ChatCircleDots weight="light" />,
+        ref,
+      },
+    ]
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,13 +55,13 @@ export const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [])
+  }, [navItems])
 
   const handleNavClick = (navId: string) => {
     const targetElement =
       navId === '#'
         ? window
-        : navItems.find((item) => item.id === navId).ref.current
+        : navItems.find((item) => item.id === navId)?.ref.current
     targetElement.scrollIntoView({ behavior: 'smooth' })
     setActiveNav(navId)
   }
