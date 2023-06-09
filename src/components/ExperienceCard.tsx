@@ -1,6 +1,7 @@
+'use client'
 import Image from 'next/image'
 import { VerticalTimelineElement } from 'react-vertical-timeline-component'
-// import 'react-vertical-timeline-component/style.min.css'
+import 'react-vertical-timeline-component/style.min.css'
 
 export const ExperienceCard = ({ experience }: any) => {
   return (
@@ -23,15 +24,6 @@ export const ExperienceCard = ({ experience }: any) => {
         </div>
       }
     >
-      {/* <div>
-        <h3 className="-mb-4 text-2xl font-bold text-white">
-          {experience.title}
-        </h3>
-        <p className="text-base font-semibold text-secondary">
-          {experience.company}
-        </p>
-      </div> */}
-
       <ul className="ml-5 mt-2 list-disc space-y-2">
         {experience.points.map((point: any, index: any) => (
           <li
