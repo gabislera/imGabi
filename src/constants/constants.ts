@@ -86,6 +86,28 @@ export const services = [
 export const projects = [
   {
     id: 1,
+    name: 'Ignews',
+    image: '/ignews.png',
+    description:
+      'Blog de notícias com opção de assinatura mensal para conteúdo exclusivo com stripe.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'sass',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/IgNews',
+  },
+  {
+    id: 2,
     name: 'Spacerocket',
     image: '/spacerocket.png',
     description:
@@ -107,7 +129,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 2,
+    id: 3,
     name: 'DT Money',
     image: '/dtmoney.png',
     description:
@@ -129,7 +151,7 @@ export const projects = [
     link: 'https://github.com/gabislera/DT-Money',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Metaversus',
     image: '/metaverse.png',
     description:
@@ -151,7 +173,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Pomodoro',
     image: '/pomodoro.png',
     description:
@@ -173,7 +195,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Pets',
     image: '/pets.png',
     description:
@@ -195,7 +217,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Cats',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Todo List',
     image: '/teste.png',
     description:
@@ -217,7 +239,7 @@ export const projects = [
     link: "https://github.com/gabislera/To-do-List'",
   },
   {
-    id: 7,
+    id: 8,
     name: 'Feed',
     image: '/feed.png',
     description:
@@ -238,28 +260,28 @@ export const projects = [
     ],
     link: 'https://github.com/gabislera/Post-feed',
   },
-  {
-    id: 8,
-    name: 'Bikraft',
-    image: '/bikcraft.png',
-    description:
-      'Website criado para marca fictícia de bicicletas realizado no cruso.',
-    tags: [
-      {
-        name: 'html',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/Bikcraft',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Bikraft',
+  //   image: '/bikcraft.png',
+  //   description:
+  //     'Website criado para marca fictícia de bicicletas realizado no cruso.',
+  //   tags: [
+  //     {
+  //       name: 'html',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'javascript',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   link: 'https://github.com/gabislera/Bikcraft',
+  // },
   {
     id: 9,
     name: 'Animais Fantásticos',
