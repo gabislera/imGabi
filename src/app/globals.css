@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .swiper-slide {
+  height: calc((100% - 30px) / 2) !important;
+}
+
+.swiper {
+  height: 950px;
+} */
+
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizedLegibility;

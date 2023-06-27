@@ -3,7 +3,7 @@ import { VerticalTimeline } from 'react-vertical-timeline-component'
 import { motion } from 'framer-motion'
 import { staggerContainer, textVariant } from '../utils/motion'
 import { ExperienceCard } from './ExperienceCard'
-import { experiences } from '@/constants/constants'
+import { experiences } from '@/constants/data'
 
 export const Experience = () => {
   return (

@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
 import { ServiceCard } from './ServiceCard'
-import { services } from '@/constants/constants'
+import { services } from '@/constants/data'
 
 export const About = () => {
   return (

@@ -1,15 +1,17 @@
 'use client'
 import { motion } from 'framer-motion'
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
-import { projects } from '@/constants/constants'
+import { projects } from '@/constants/data'
 import { ProjectCard } from './ProjectCard'
 
-import { Pagination, Navigation } from 'swiper'
+import { Pagination, Navigation, Grid } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css/autoplay'
 
+import 'swiper/css/autoplay'
 import 'swiper/css'
 import 'swiper/css/pagination'
+// import 'swiper/css/grid'
+
 import { useEffect, useState } from 'react'
 
 export const Projects = () => {
@@ -53,13 +55,13 @@ export const Projects = () => {
           <div className="mt-20 flex flex-wrap gap-7">
             <Swiper
               slidesPerView={isMobile}
+              grid={{ rows: 1 }}
               spaceBetween={30}
-              pagination={{ clickable: true }}
-              // autoplay={{ delay: 2500 }}
+              pagination={{ dynamicBullets: true }}
               loop={true}
-              navigation={true}
-              // pagination={true}
-              modules={[Navigation, Pagination]}
+              // navigation={true}
+              modules={[Navigation, Pagination, Grid]}
+              // autoplay={{ delay: 2500 }}
             >
               {projects.map((project) => (
                 <SwiperSlide key={project.id}>

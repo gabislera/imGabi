@@ -86,13 +86,35 @@ export const services = [
 export const projects = [
   {
     id: 1,
+    name: 'Dashgo',
+    image: '/dashgo.png',
+    description:
+      'Dashboard com acesso a lista de usuários cadastrados e estatísticas usando MirageJs.',
+    tags: [
+      {
+        name: 'next-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'chakra-ui',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/IgNews',
+  },
+  {
+    id: 2,
     name: 'Ignews',
     image: '/ignews.png',
     description:
       'Blog de notícias com opção de assinatura mensal para conteúdo exclusivo com stripe.',
     tags: [
       {
-        name: 'react',
+        name: 'next-js',
         color: 'blue-text-gradient',
       },
       {
@@ -105,28 +127,6 @@ export const projects = [
       },
     ],
     link: 'https://github.com/gabislera/IgNews',
-  },
-  {
-    id: 2,
-    name: 'Spacerocket',
-    image: '/spacerocket.png',
-    description:
-      'Capsula do tempo onde o usuário pode fazer login e postar suas memorias em um formato de feed.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'typescript',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
     id: 3,
@@ -152,6 +152,29 @@ export const projects = [
   },
   {
     id: 4,
+    name: 'Spacerocket',
+    image: '/spacerocket.png',
+    description:
+      'Capsula do tempo onde o usuário pode fazer login e postar suas memorias em um formato de feed.',
+    tags: [
+      {
+        name: 'next-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/NLW-Spacetime',
+  },
+
+  {
+    id: 5,
     name: 'Metaversus',
     image: '/metaverse.png',
     description:
@@ -173,7 +196,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Pomodoro',
     image: '/pomodoro.png',
     description:
@@ -195,7 +218,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Pets',
     image: '/pets.png',
     description:
@@ -217,7 +240,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Cats',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Todo List',
     image: '/teste.png',
     description:
@@ -239,7 +262,7 @@ export const projects = [
     link: "https://github.com/gabislera/To-do-List'",
   },
   {
-    id: 8,
+    id: 9,
     name: 'Feed',
     image: '/feed.png',
     description:
