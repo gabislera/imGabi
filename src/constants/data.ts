@@ -1,6 +1,7 @@
 export const experiences = [
   {
     title: 'Nome do curso',
+    id: 1,
     company: 'Empresa',
     icon: '/react.svg',
     iconBg: '#629bf0',
@@ -17,6 +18,7 @@ export const experiences = [
   },
   {
     title: 'Nome do curso',
+    id: 2,
     company: 'Empresa',
     icon: '/js.svg',
     iconBg: '#8257e5',
@@ -34,23 +36,43 @@ export const experiences = [
   },
   {
     title: 'Nome do curso',
+    id: 3,
+    company: 'Empresa',
+    icon: '/server1.png',
+    iconBg: '#629bf0',
+    date: 'Node js',
+    points: [
+      'Express',
+      'Sqlite',
+      'Authentication',
+      'Http requests',
+      'Migrations',
+      'JWS',
+      'Knex',
+    ],
+  },
+  {
+    title: 'Nome do curso',
+    id: 4,
     company: 'Empresa',
     icon: '/html.svg',
-    iconBg: '#629bf0',
+    iconBg: '#8257e5',
     date: 'HTML / CSS',
     points: [
       'TailwindCSS',
       'Styled Components',
       'Layout Responsivo',
+      'Chakra UI',
       'Flexbox',
       'Grid layout',
-      'HTML Semântico',
+      'Stitches',
     ],
   },
   {
     title: 'Nome do curso',
+    id: 5,
     company: 'Empresa',
-    icon: '/plus.svg',
+    icon: '/more.svg',
     iconBg: '#8257e5',
     date: 'Other Skills',
     points: [

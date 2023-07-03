@@ -34,15 +34,16 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY
+      const scrollPosition = window.scrollY // Obtém a posição atual de rolagem vertical da janela
 
       const activeNavItem = navItems.find((item) => {
-        const targetElement = item.id === '#' ? window : item.ref.current
+        const targetElement = item.id === '#' ? window : item.ref.current // Obtém o elemento alvo com base no ID do item de navegação. Se o ID for '#', o elemento alvo é a janela (window).
+
         return (
           targetElement.offsetTop - 100 <= scrollPosition &&
           targetElement.offsetTop + targetElement.offsetHeight - 100 >
             scrollPosition
-        )
+        ) // Verifica se a posição de rolagem está dentro do intervalo do elemento alvo. Subtrai 100 para ajustar a margem superior.
       })
 
       if (activeNavItem) {

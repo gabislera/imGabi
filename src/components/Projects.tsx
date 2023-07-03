@@ -63,8 +63,8 @@ export const Projects = () => {
               modules={[Navigation, Pagination, Grid]}
               // autoplay={{ delay: 2500 }}
             >
-              {projects.map((project) => (
-                <SwiperSlide key={project.id}>
+              {projects.map((project, index) => (
+                <SwiperSlide key={index}>
                   <ProjectCard {...project} />
                 </SwiperSlide>
               ))}
