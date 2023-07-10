@@ -1,5 +1,5 @@
 
-![Captura de tela 2023-07-10 192436](https://github.com/gabislera/imGabi/assets/112272723/9c05edea-14cb-4a0b-944f-b743634f0cac)
+![Captura de tela 2023-07-10 193154](https://github.com/gabislera/imGabi/assets/112272723/99986925-e066-41fc-998c-0a3d199577f1)
 
 # imGabi
 
