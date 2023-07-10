@@ -30,8 +30,4 @@ A personal portfolio with a navbar where the user can navigate through sections.
 ```bash
   npm run dev
 ```
-```bash
-  npm run dev:server
-```
-
 
