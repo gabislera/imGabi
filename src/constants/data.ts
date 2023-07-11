@@ -49,6 +49,7 @@ export const experiences = [
       'Migrations',
       'JWS',
       'Knex',
+      'Jest',
     ],
   },
   {
@@ -61,6 +62,7 @@ export const experiences = [
     points: [
       'TailwindCSS',
       'Styled Components',
+      'Sass',
       'Layout Responsivo',
       'Chakra UI',
       'Flexbox',
@@ -107,6 +109,50 @@ export const services = [
 
 export const projects = [
   {
+    id: 9,
+    name: 'Rocketnotes',
+    image: '/rocketnotes.png',
+    description:
+      'Dashboard para criação de notas e links úteis agrupados por tags.',
+    tags: [
+      {
+        name: 'node-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styled-components',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Rocketnotes',
+  },
+  {
+    id: 8,
+    name: 'Ignite shop',
+    image: '/igniteshop.png',
+    description:
+      'Loja de camisetas com sistema de pagamento usando api do stripe.',
+    tags: [
+      {
+        name: 'next-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'stitches',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Ignite-shop',
+  },
+  {
     id: 1,
     name: 'Dashgo',
     image: '/dashgo.png',
@@ -126,7 +172,7 @@ export const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    link: 'https://github.com/gabislera/IgNews',
+    link: 'https://github.com/gabislera/Dashgo',
   },
   {
     id: 2,
@@ -304,49 +350,5 @@ export const projects = [
       },
     ],
     link: 'https://github.com/gabislera/Post-feed',
-  },
-  // {
-  //   id: 8,
-  //   name: 'Bikraft',
-  //   image: '/bikcraft.png',
-  //   description:
-  //     'Website criado para marca fictícia de bicicletas realizado no cruso.',
-  //   tags: [
-  //     {
-  //       name: 'html',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'javascript',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   link: 'https://github.com/gabislera/Bikcraft',
-  // },
-  {
-    id: 9,
-    name: 'Animais Fantásticos',
-    image: '/animais.png',
-
-    description: 'Site fictício criado com funcionalidades de javascript puro.',
-    tags: [
-      {
-        name: 'javascript',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'html',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    link: 'https://github.com/gabislera/Animais-Fantasticos',
   },
 ]
