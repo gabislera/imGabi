@@ -98,8 +98,8 @@ export const services = [
     icon: '/nextjs.svg',
   },
   {
-    title: 'Tailwind',
-    icon: '/tailwindcss.svg',
+    title: 'NodeJs',
+    icon: '/nodejs.svg',
   },
   {
     title: 'Typescript',
@@ -109,7 +109,29 @@ export const services = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
+    name: 'Food explorer',
+    image: '/foodexplorer.png',
+    description:
+      'Aplicação para restaurante onde o admin pode adicionar ou editar pratos.',
+    tags: [
+      {
+        name: 'node-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Food-explorer-fullstack',
+  },
+  {
+    id: 2,
     name: 'Rocketnotes',
     image: '/rocketnotes.png',
     description:
@@ -131,7 +153,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Rocketnotes',
   },
   {
-    id: 8,
+    id: 3,
     name: 'Ignite shop',
     image: '/igniteshop.png',
     description:
@@ -153,7 +175,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Ignite-shop',
   },
   {
-    id: 1,
+    id: 4,
     name: 'Dashgo',
     image: '/dashgo.png',
     description:
@@ -175,7 +197,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Dashgo',
   },
   {
-    id: 2,
+    id: 5,
     name: 'Ignews',
     image: '/ignews.png',
     description:
@@ -197,7 +219,7 @@ export const projects = [
     link: 'https://github.com/gabislera/IgNews',
   },
   {
-    id: 3,
+    id: 6,
     name: 'DT Money',
     image: '/dtmoney.png',
     description:
@@ -219,7 +241,7 @@ export const projects = [
     link: 'https://github.com/gabislera/DT-Money',
   },
   {
-    id: 4,
+    id: 7,
     name: 'Spacerocket',
     image: '/spacerocket.png',
     description:
@@ -242,7 +264,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 8,
     name: 'Metaversus',
     image: '/metaverse.png',
     description:
@@ -264,7 +286,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 6,
+    id: 9,
     name: 'Pomodoro',
     image: '/pomodoro.png',
     description:
@@ -286,7 +308,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 7,
+    id: 10,
     name: 'Pets',
     image: '/pets.png',
     description:
@@ -308,7 +330,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Cats',
   },
   {
-    id: 8,
+    id: 11,
     name: 'Todo List',
     image: '/teste.png',
     description:
@@ -330,7 +352,7 @@ export const projects = [
     link: "https://github.com/gabislera/To-do-List'",
   },
   {
-    id: 9,
+    id: 12,
     name: 'Feed',
     image: '/feed.png',
     description:
