@@ -109,6 +109,27 @@ export const services = [
 
 export const projects = [
   {
+    id: 13,
+    name: 'Cofee Delivery',
+    image: '/cofee-delivery.png',
+    description: 'Delivery de cafés com controle de quantidades e carrinho.',
+    tags: [
+      {
+        name: 'node-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'styled-components',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Food-explorer-fullstack',
+  },
+  {
     id: 1,
     name: 'Food explorer',
     image: '/foodexplorer.png',
