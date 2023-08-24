@@ -121,7 +121,7 @@ export const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    link: 'https://github.com/gabislera/Food-explorer-fullstack',
+    link: 'https://github.com/gabislera/Cofee-Delivery',
   },
   {
     id: 1,
