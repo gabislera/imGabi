@@ -11,23 +11,18 @@ export const ExperienceCard = ({ experience }: any) => {
         color: '#fff',
       }}
       contentArrowStyle={{ borderRight: '7px solid  #2c2c31' }}
-      date={experience.date}
+      date={experience.title}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex h-full w-full items-center justify-center">
-          <Image
-            src={experience.icon}
-            alt={experience.company}
-            width={40}
-            height={40}
-          />
+          <Image src={experience.icon} alt="" width={40} height={40} />
         </div>
       }
     >
       <ul className="ml-5 mt-2 list-disc space-y-2">
-        {experience.points.map((point: any, index: any) => (
-          <li key={index} className="text-white-100 pl-1 text-[14px]">
-            {point}
+        {experience.details.map((item: String, index: string) => (
+          <li key={index} className="text-white-100 pl-1 text-[0.875rem]">
+            {item}
           </li>
         ))}
       </ul>

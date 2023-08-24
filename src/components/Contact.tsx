@@ -5,10 +5,10 @@ import { fadeIn, staggerContainer, textVariant } from '../utils/motion'
 import emailjs from 'emailjs-com'
 
 export const Contact = () => {
-  const form = useRef<any>() // Change event type
+  const form = useRef<any>() // FIX: Change event type
 
-  const sendEmail = (e: any) => {
-    // Change event type FormEvent<HTMLFormElement>
+  const handleSendEmail = (e: any) => {
+    // FIX: Change event type FormEvent<HTMLFormElement>
     e.preventDefault()
 
     emailjs
@@ -20,7 +20,7 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          // alert('ok') Melhorar resposta de email enviado
+          // FIX: Success toast
           console.log(result.text)
         },
         (error) => {
@@ -47,9 +47,9 @@ export const Contact = () => {
 
       <motion.div variants={fadeIn('', '', 0.5, 1)} className="mt-20 flex-1">
         <form
-          onSubmit={sendEmail}
+          onSubmit={handleSendEmail}
           ref={form}
-          className="mx-auto flex max-w-[700px] flex-col items-center gap-5"
+          className="mx-auto flex max-w-[43.75rem] flex-col items-center gap-5"
         >
           <input
             className="w-full rounded-lg border-[1px] border-gray-300 bg-transparent p-6 text-white"

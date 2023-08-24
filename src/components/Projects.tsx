@@ -52,16 +52,16 @@ export const Projects = () => {
         </motion.div>
 
         <motion.div variants={fadeIn('', '', 0.1, 1)}>
-          <div className="mt-20 flex flex-wrap gap-7">
+          <div className="mt-20 flex flex-wrap gap-7 ">
             <Swiper
               slidesPerView={isMobile}
               grid={{ rows: 1 }}
               spaceBetween={30}
               pagination={{ dynamicBullets: true }}
               loop={true}
-              // navigation={true}
+              navigation={true}
               modules={[Navigation, Pagination, Grid]}
-              // autoplay={{ delay: 2500 }}
+              autoplay={{ delay: 2500 }}
             >
               {projects.map((project, index) => (
                 <SwiperSlide key={index}>

@@ -20,7 +20,9 @@ export const ServiceCard = ({ index, title, icon }: SeviceCardProps) => (
           height={60}
           className=" object-contain"
         />
-        <h3 className="text-center text-base font-thin text-white">{title}</h3>
+        <span className="text-center text-base font-thin text-white">
+          {title}
+        </span>
       </div>
     </motion.div>
   </Tilt>

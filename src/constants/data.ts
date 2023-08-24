@@ -1,29 +1,25 @@
 export const experiences = [
   {
-    title: 'Nome do curso',
     id: 1,
-    company: 'Empresa',
     icon: '/react.svg',
     iconBg: '#629bf0',
-    date: 'React',
-    points: [
+    title: 'React',
+    details: [
       'NextJs',
       'Hooks',
       'React Router',
       'Context',
       'PropTypes',
-      'Componentes funcionais',
+      'Components',
       'Events',
     ],
   },
   {
-    title: 'Nome do curso',
     id: 2,
-    company: 'Empresa',
     icon: '/js.svg',
     iconBg: '#8257e5',
-    date: 'Javascript',
-    points: [
+    title: 'Javascript',
+    details: [
       'Objects',
       'Strings',
       'Arrays',
@@ -35,13 +31,11 @@ export const experiences = [
     ],
   },
   {
-    title: 'Nome do curso',
     id: 3,
-    company: 'Empresa',
     icon: '/server1.png',
     iconBg: '#629bf0',
-    date: 'Node js',
-    points: [
+    title: 'Node js',
+    details: [
       'Express',
       'Sqlite',
       'Authentication',
@@ -53,13 +47,11 @@ export const experiences = [
     ],
   },
   {
-    title: 'Nome do curso',
     id: 4,
-    company: 'Empresa',
     icon: '/html.svg',
     iconBg: '#8257e5',
-    date: 'HTML / CSS',
-    points: [
+    title: 'HTML / CSS',
+    details: [
       'TailwindCSS',
       'Styled Components',
       'Sass',
@@ -71,13 +63,11 @@ export const experiences = [
     ],
   },
   {
-    title: 'Nome do curso',
     id: 5,
-    company: 'Empresa',
     icon: '/more.svg',
     iconBg: '#8257e5',
-    date: 'Other Skills',
-    points: [
+    title: 'Other Skills',
+    details: [
       'Intermediate English',
       'Typescript',
       'Figma',
@@ -90,18 +80,22 @@ export const experiences = [
 
 export const services = [
   {
+    id: 1,
     title: 'React',
     icon: '/reactjs.svg',
   },
   {
+    id: 2,
     title: 'NextJs',
     icon: '/nextjs.svg',
   },
   {
+    id: 3,
     title: 'NodeJs',
     icon: '/nodejs.svg',
   },
   {
+    id: 4,
     title: 'Typescript',
     icon: '/typescript.svg',
   },
