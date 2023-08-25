@@ -1,6 +1,7 @@
 'use-client'
 // import { useEffect, useRef } from 'react'
 import { GithubLogo } from '@phosphor-icons/react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 interface Tag {
@@ -26,10 +27,13 @@ export const ProjectCard = ({
   return (
     <div className="hover:border-1 w-full rounded-2xl border-[1px] border-gray-400 bg-gray-500 p-5 hover:border-purple-700 hover:bg-transparent sm:w-[22.5rem]">
       <div className="relative h-[14.375rem] w-full">
-        <img
+        <Image
+          height={500}
+          width={500}
           src={image}
           alt=""
           className="h-full w-full rounded-2xl object-cover"
+          loading="lazy"
         />
       </div>
 
