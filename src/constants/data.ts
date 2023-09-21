@@ -103,7 +103,50 @@ export const services = [
 
 export const projects = [
   {
-    id: 13,
+    id: 1,
+    name: 'Ignite Call',
+    image: '/ignite-call.png',
+    description: 'Agendamento de horários integrado com api do google calendar',
+    tags: [
+      {
+        name: 'node-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Ignite-Call',
+  },
+  {
+    id: 2,
+    name: 'Upload AI',
+    image: '/uploadai2.png',
+    description:
+      'Chat com inteligencia artificial baseado em videos enviados e transcritos pela open ai',
+    tags: [
+      {
+        name: 'node-js',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    link: 'https://github.com/gabislera/Upload-ai',
+  },
+  {
+    id: 3,
     name: 'Cofee Delivery',
     image: '/cofee-delivery.png',
     description: 'Delivery de cafés com controle de quantidades e carrinho.',
@@ -124,7 +167,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Cofee-Delivery',
   },
   {
-    id: 1,
+    id: 4,
     name: 'Food explorer',
     image: '/foodexplorer.png',
     description:
@@ -146,7 +189,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Food-explorer-fullstack',
   },
   {
-    id: 2,
+    id: 5,
     name: 'Rocketnotes',
     image: '/rocketnotes.png',
     description:
@@ -168,7 +211,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Rocketnotes',
   },
   {
-    id: 3,
+    id: 6,
     name: 'Ignite shop',
     image: '/igniteshop.png',
     description:
@@ -190,7 +233,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Ignite-shop',
   },
   {
-    id: 4,
+    id: 7,
     name: 'Dashgo',
     image: '/dashgo.png',
     description:
@@ -212,7 +255,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Dashgo',
   },
   {
-    id: 5,
+    id: 8,
     name: 'Ignews',
     image: '/ignews.png',
     description:
@@ -234,7 +277,7 @@ export const projects = [
     link: 'https://github.com/gabislera/IgNews',
   },
   {
-    id: 6,
+    id: 9,
     name: 'DT Money',
     image: '/dtmoney.png',
     description:
@@ -256,7 +299,7 @@ export const projects = [
     link: 'https://github.com/gabislera/DT-Money',
   },
   {
-    id: 7,
+    id: 10,
     name: 'Spacerocket',
     image: '/spacerocket.png',
     description:
@@ -279,7 +322,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 11,
     name: 'Metaversus',
     image: '/metaverse.png',
     description:
@@ -301,7 +344,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 9,
+    id: 12,
     name: 'Pomodoro',
     image: '/pomodoro.png',
     description:
@@ -323,7 +366,7 @@ export const projects = [
     link: 'https://github.com/gabislera/NLW-Spacetime',
   },
   {
-    id: 10,
+    id: 13,
     name: 'Pets',
     image: '/pets.png',
     description:
@@ -345,7 +388,7 @@ export const projects = [
     link: 'https://github.com/gabislera/Cats',
   },
   {
-    id: 11,
+    id: 14,
     name: 'Todo List',
     image: '/teste.png',
     description:
@@ -367,7 +410,7 @@ export const projects = [
     link: "https://github.com/gabislera/To-do-List'",
   },
   {
-    id: 12,
+    id: 15,
     name: 'Feed',
     image: '/feed.png',
     description:
